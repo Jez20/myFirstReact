@@ -9,7 +9,7 @@ const Router = () =>{
         <div>
             <BrowserRouter>
             <Routes>
-                <Route exact path = "/myfirstreact" element = {<Home/>}/>
+                <Route exact path = "/" element = {<Home/>}/>
                 <Route exact path = "/employee" element = {<Employee/>}/>
                 { <Route exact path = "/add" element = {<AddEmployee/>}/> }
                 <Route exact path = "/employee/edit/:id" element = {<AddEmployee/>}/>
